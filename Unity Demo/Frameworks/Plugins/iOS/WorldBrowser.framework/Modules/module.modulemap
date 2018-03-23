@@ -1,0 +1,6 @@
+framework module WorldBrowser {
+  umbrella header "WorldBrowser.h"
+
+  export *
+  module * { export * }
+}

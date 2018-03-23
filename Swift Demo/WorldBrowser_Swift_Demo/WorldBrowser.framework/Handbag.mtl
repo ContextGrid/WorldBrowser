@@ -1,0 +1,8 @@
+newmtl defaultMat
+Kd 0.728 0.139048 0.139048
+illum 2
+
+newmtl defaultMat 1
+Kd 0.616 0 0.01108778
+illum 2
+
