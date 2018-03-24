@@ -36,7 +36,7 @@ If you’d like to download and maintain the SDK manually, please follow the ste
 $ git clone --recursive https://github.com/ContextGrid/WorldBrowser-iOS.git
 $ open WorldBrowser-iOS
 ~~~
-+ Navigate to the WorldBrowser "Framework" folder & drag the "core-sdk" folder into your existing Xcode project
++ Navigate to the WorldBrowser "Framework" folder drag into your existing Xcode project
 + In Xcode, go to your app's target settings. Under the `Build Phases` tab, expand the `Link Binary With Libraries` section.
 + Include the following framework:
 - `WorldBrowser.framework`
