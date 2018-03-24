@@ -69,3 +69,7 @@ Once you prepared, continue to have a look at the Documentation to see how to us
 HTML documentation is hosted on our [WorldBrowser Developer Guide](https://app.contextgrid.com/).
 
 API documentation is hosted on our [WorldBrowser Developer Guide](https://app.contextgrid.com/docs/#introduction)
+
+LICENSE
+-------
+LICENSE file not required.
