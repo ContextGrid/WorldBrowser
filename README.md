@@ -49,7 +49,7 @@ $ open WorldBrowser-iOS
 
 #### Next
 
-After installation, you must import the CitrusPay SDK in your project by adding this:
+After installation, you must import the WorldBrowser SDK in your project by adding this:
 
 Swift
 ~~~{.m}
@@ -69,5 +69,3 @@ Once you prepared, continue to have a look at the Documentation to see how to us
 HTML documentation is hosted on our [WorldBrowser Developer Guide](https://app.contextgrid.com/).
 
 API documentation is hosted on our [WorldBrowser Developer Guide](https://app.contextgrid.com/docs/#introduction)
-
-Git Wiki documentation is available on the [Git Wiki Documentation](https://github.com/citruspay/WorldBrowser-ios-sdk/wiki).
