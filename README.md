@@ -1,24 +1,27 @@
-# WorldBrowser-iOS
+# Getting Started
 
 ## WorldBrowser iOS SDK's
 
 ## Introduction
 
-The WorldBrowser iOS SDK enables Detecting Real time object using Model.
+The WorldBrowser iOS SDK enables detecting data registered with ContextGrid using machine learning and augmented reality. 
 
-The SDK is designed for WorldBrowser partners who are developing their own iOS apps. The SDK provides a native integration to detecting object within these apps that is easy to integration and provides a high performance, functional checkout experience.
+The SDK is designed for WorldBrowser partners who are developing their own iOS apps. The SDK provide native integration to detecting object within these apps that is easy to integrate and provides a high performance, augmented reality experience.
 
 ##Features 
 WorldBrowser iOS SDK broadly offers following features.
 
 ### WorldBrowser.framework
 
-+ SDK support Company key to simplyfy call api
++ Detecting nearby places of interest that are registered on ContextGrid platform
++ Managing Augmented Reality experience within a place to detect registered microlocations
++ Leveraging SDK for execution of actions assigned via ContextGrid portal 
++ SDK supports Comany Key integration to simplyfy API calls
 + Swift Version 3.1 Support with Xcode 9.0
 + IOS version 11.0 support with xcode 9.0
 
 ## Example Project
-An example project is available via  manual-inclusion to try out and familiarize yourself with the WorldBrowser SDK. This project comes bundled with the SDK.
+An example project is available via  manual-inclusion to try out and familiarize yourself with the WorldBrowser iOS SDK. This project comes bundled with the SDK.
 
 ## Example App Requirements
 
@@ -66,8 +69,6 @@ to the files in which you want to use this framework.
 Once you prepared, continue to have a look at the Documentation to see how to use WorldBrowser.
 
 ## Documentation
-HTML documentation is hosted on our [WorldBrowser Developer Guide](https://app.contextgrid.com/).
-
 API documentation is hosted on our [WorldBrowser Developer Guide](https://app.contextgrid.com/docs/#introduction)
 
 LICENSE
