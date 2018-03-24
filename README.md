@@ -24,7 +24,7 @@ An example project is available via  manual-inclusion to try out and familiarize
 
 + Xcode 9.0 or higher.
 
-### Prerequisites to integrating with Citrus PG
+### Prerequisites to integrating with WorldBrowser.
 + You need to get company api key from [ContextGrid](https://app.contextgrid.com/).
 
 Note: Please ensure all the requirements mentioned above are met before proceeding.
