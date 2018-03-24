@@ -13,9 +13,9 @@ WorldBrowser iOS SDK broadly offers following features.
 
 ### WorldBrowser.framework
 
-SDK support Company key to simplyfy call api
-Swift Version 3.1 Support with Xcode 9.0
-IOS version 11.0 support with xcode 9.0
++ SDK support Company key to simplyfy call api
++ Swift Version 3.1 Support with Xcode 9.0
++ IOS version 11.0 support with xcode 9.0
 
 ## Example Project
 An example project is available via  manual-inclusion to try out and familiarize yourself with the WorldBrowser SDK. This project comes bundled with the SDK.
