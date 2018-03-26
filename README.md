@@ -1,14 +1,14 @@
 # Getting Started
+For the SDK to work end to end, Establishments need to create an account with ContextGrid and use the Annotator app to register data in the physical world first at app.contextgrid.com and joinning the beta program.
 
 ## WorldBrowser iOS SDK's
+There are multiple samples of apps in this GitHub page which shows apps being built using Objective-C, Swift and Unity.
 
 ## Introduction
 
-The WorldBrowser iOS SDK enables detecting data registered to specific micro-locations with ContextGrid using Computer Vision bsed Artificial Intelligence and Augmented Reality. For the SDK to work end to end, Establishments need to create an account with ContextGrid and use the Annotator app to register data in the physical world first. 
+The WorldBrowser iOS SDK enables detecting data registered to specific micro-locations with ContextGrid using Computer Vision bsed Artificial Intelligence and Augmented Reality.  
 
 The SDK is designed for WorldBrowser partners who are developing their own iOS apps. The SDK provide native integration to detecting micro-locations within these apps that is easy to integrate and provides a scalable, augmented reality experience that can be everywhere.
-
-There are multiple samples of apps in this GitHub page which shows apps being built using Objective-C, Swift and Unity.
 
 ##Features 
 WorldBrowser iOS SDK broadly offers following features.
