@@ -4,9 +4,11 @@
 
 ## Introduction
 
-The WorldBrowser iOS SDK enables detecting data registered with ContextGrid using machine learning and augmented reality. 
+The WorldBrowser iOS SDK enables detecting data registered to specific micro-locations with ContextGrid using Computer Vision bsed Artificial Intelligence and Augmented Reality. 
 
-The SDK is designed for WorldBrowser partners who are developing their own iOS apps. The SDK provide native integration to detecting object within these apps that is easy to integrate and provides a high performance, augmented reality experience.
+The SDK is designed for WorldBrowser partners who are developing their own iOS apps. The SDK provide native integration to detecting micro-locations within these apps that is easy to integrate and provides a scalable, augmented reality experience that can be everywhere.
+
+There are multiple samples of apps in this GitHub page which shows apps being built using Objective-C, Swift and Unity.
 
 ##Features 
 WorldBrowser iOS SDK broadly offers following features.
@@ -16,9 +18,10 @@ WorldBrowser iOS SDK broadly offers following features.
 + Detecting nearby places of interest that are registered on ContextGrid platform
 + Managing Augmented Reality experience within a place to detect registered microlocations
 + Leveraging SDK for execution of actions assigned via ContextGrid portal 
-+ SDK supports Comany Key integration to simplyfy API calls
++ SDK supports Comapny Key integration to simplify API calls
 + Swift Version 3.1 Support with Xcode 9.0
 + IOS version 11.0 support with xcode 9.0
++ Also supports Unity integration with plugins
 
 ## Example Project
 An example project is available via  manual-inclusion to try out and familiarize yourself with the WorldBrowser iOS SDK. This project comes bundled with the SDK.
