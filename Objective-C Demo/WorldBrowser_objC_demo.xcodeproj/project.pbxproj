@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7011FCB7211EA80000105268 /* WorldBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7011FCB6211EA80000105268 /* WorldBrowser.framework */; };
+		7011FCB8211EA80700105268 /* WorldBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7011FCB6211EA80000105268 /* WorldBrowser.framework */; };
+		7011FCB9211EA80700105268 /* WorldBrowser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7011FCB6211EA80000105268 /* WorldBrowser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CE6741F3205A4C440054B551 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6741F2205A4C440054B551 /* AppDelegate.m */; };
 		CE6741F6205A4C440054B551 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6741F5205A4C440054B551 /* ViewController.m */; };
 		CE6741F9205A4C440054B551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6741F7205A4C440054B551 /* Main.storyboard */; };
@@ -15,8 +18,6 @@
 		CE674201205A4C440054B551 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE674200205A4C440054B551 /* main.m */; };
 		CE67420B205A4C440054B551 /* WorldBrowser_objC_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE67420A205A4C440054B551 /* WorldBrowser_objC_demoTests.m */; };
 		CE674216205A4C440054B551 /* WorldBrowser_objC_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE674215205A4C440054B551 /* WorldBrowser_objC_demoUITests.m */; };
-		CE674224205A4E2C0054B551 /* WorldBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE674223205A4E2C0054B551 /* WorldBrowser.framework */; };
-		CE674226205A4E350054B551 /* WorldBrowser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE674223205A4E2C0054B551 /* WorldBrowser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CE674227205A4E350054B551 /* Embed Frameworks */ = {
+		7011FCB5211EA74000105268 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CE674226205A4E350054B551 /* WorldBrowser.framework in Embed Frameworks */,
+				7011FCB9211EA80700105268 /* WorldBrowser.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,6 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7011FCB6211EA80000105268 /* WorldBrowser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WorldBrowser.framework; sourceTree = "<group>"; };
 		CE6741EE205A4C440054B551 /* WorldBrowser_objC_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldBrowser_objC_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6741F1205A4C440054B551 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE6741F2205A4C440054B551 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,7 +69,6 @@
 		CE674211205A4C440054B551 /* WorldBrowser_objC_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldBrowser_objC_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE674215205A4C440054B551 /* WorldBrowser_objC_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorldBrowser_objC_demoUITests.m; sourceTree = "<group>"; };
 		CE674217205A4C440054B551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE674223205A4E2C0054B551 /* WorldBrowser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WorldBrowser.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE674224205A4E2C0054B551 /* WorldBrowser.framework in Frameworks */,
+				7011FCB8211EA80700105268 /* WorldBrowser.framework in Frameworks */,
+				7011FCB7211EA80000105268 /* WorldBrowser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +121,7 @@
 		CE6741F0205A4C440054B551 /* WorldBrowser_objC_demo */ = {
 			isa = PBXGroup;
 			children = (
-				CE674223205A4E2C0054B551 /* WorldBrowser.framework */,
+				7011FCB6211EA80000105268 /* WorldBrowser.framework */,
 				CE6741F1205A4C440054B551 /* AppDelegate.h */,
 				CE6741F2205A4C440054B551 /* AppDelegate.m */,
 				CE6741F4205A4C440054B551 /* ViewController.h */,
@@ -161,7 +163,7 @@
 				CE6741EA205A4C440054B551 /* Sources */,
 				CE6741EB205A4C440054B551 /* Frameworks */,
 				CE6741EC205A4C440054B551 /* Resources */,
-				CE674227205A4E350054B551 /* Embed Frameworks */,
+				7011FCB5211EA74000105268 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -449,6 +451,7 @@
 		CE67421B205A4C440054B551 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = YQD4TX65A5;
@@ -457,6 +460,7 @@
 					"$(PROJECT_DIR)/WorldBrowser_objC_demo",
 				);
 				INFOPLIST_FILE = WorldBrowser_objC_demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.technostacks.development;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -469,6 +473,7 @@
 		CE67421C205A4C440054B551 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = YQD4TX65A5;
@@ -477,6 +482,7 @@
 					"$(PROJECT_DIR)/WorldBrowser_objC_demo",
 				);
 				INFOPLIST_FILE = WorldBrowser_objC_demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.technostacks.development;
 				PRODUCT_NAME = "$(TARGET_NAME)";

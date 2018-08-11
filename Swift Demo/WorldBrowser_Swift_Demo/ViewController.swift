@@ -15,8 +15,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     override func viewDidAppear(_ animated: Bool) {
-        DetectionViewController.sharedManager().setCompanyKey("YOUR_COMPANY_KEY_HERE")
-        DetectionViewController.sharedManager().openMap()
+
+        self.present(DetectionViewController.sharedManager(), animated: true, completion: nil)
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

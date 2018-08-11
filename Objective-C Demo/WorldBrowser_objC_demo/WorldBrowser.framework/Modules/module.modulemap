@@ -4,3 +4,8 @@ framework module WorldBrowser {
   export *
   module * { export * }
 }
+
+module WorldBrowser.Swift {
+    header "WorldBrowser-Swift.h"
+    requires objc
+}

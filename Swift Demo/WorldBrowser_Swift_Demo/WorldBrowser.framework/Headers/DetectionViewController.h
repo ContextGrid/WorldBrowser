@@ -9,6 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface DetectionViewController : UIViewController
+{
+    UIView *HeaderView,*loginBackView;
+    UILabel *lblHeder,*lblCompName,*lblUNM,*lblPWD;
+    UIButton *btnSubmit,*btnBack;
+    UITextField *txtUserName,*txtPassword;
+}
 +(instancetype) sharedManager;
 //-(void)openCameraWithDetection;
 -(void)openMap;

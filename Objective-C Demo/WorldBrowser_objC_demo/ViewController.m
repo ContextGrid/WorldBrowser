@@ -21,8 +21,7 @@
 
 -(void)viewDidAppear:(BOOL)animated
 {
-    [[DetectionViewController sharedManager] setCompanyKey:@"YOUR_COMPANY_KEY_HERE"];
-    [[DetectionViewController sharedManager] openMap];
+    [self presentViewController:[DetectionViewController sharedManager] animated:true completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7011FCAB211EA48200105268 /* WorldBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7011FCAA211EA48200105268 /* WorldBrowser.framework */; };
+		7011FCAC211EA5B300105268 /* WorldBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7011FCAA211EA48200105268 /* WorldBrowser.framework */; };
+		7011FCAD211EA5B300105268 /* WorldBrowser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7011FCAA211EA48200105268 /* WorldBrowser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CE674235205A4F020054B551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE674234205A4F020054B551 /* AppDelegate.swift */; };
 		CE674237205A4F020054B551 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE674236205A4F020054B551 /* ViewController.swift */; };
 		CE67423A205A4F020054B551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE674238205A4F020054B551 /* Main.storyboard */; };
@@ -14,7 +17,6 @@
 		CE67423F205A4F020054B551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE67423D205A4F020054B551 /* LaunchScreen.storyboard */; };
 		CE67424A205A4F020054B551 /* WorldBrowser_Swift_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE674249205A4F020054B551 /* WorldBrowser_Swift_DemoTests.swift */; };
 		CE674255205A4F020054B551 /* WorldBrowser_Swift_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE674254205A4F020054B551 /* WorldBrowser_Swift_DemoUITests.swift */; };
-		CE674263205A4F420054B551 /* WorldBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE674262205A4F420054B551 /* WorldBrowser.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +36,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7011FCAE211EA5B300105268 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7011FCAD211EA5B300105268 /* WorldBrowser.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7011FCAA211EA48200105268 /* WorldBrowser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WorldBrowser.framework; sourceTree = "<group>"; };
 		CE674231205A4F020054B551 /* WorldBrowser_Swift_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldBrowser_Swift_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE674234205A4F020054B551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE674236205A4F020054B551 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +65,6 @@
 		CE674250205A4F020054B551 /* WorldBrowser_Swift_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldBrowser_Swift_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE674254205A4F020054B551 /* WorldBrowser_Swift_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldBrowser_Swift_DemoUITests.swift; sourceTree = "<group>"; };
 		CE674256205A4F020054B551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE674262205A4F420054B551 /* WorldBrowser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WorldBrowser.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE674263205A4F420054B551 /* WorldBrowser.framework in Frameworks */,
+				7011FCAC211EA5B300105268 /* WorldBrowser.framework in Frameworks */,
+				7011FCAB211EA48200105268 /* WorldBrowser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +117,7 @@
 		CE674233205A4F020054B551 /* WorldBrowser_Swift_Demo */ = {
 			isa = PBXGroup;
 			children = (
-				CE674262205A4F420054B551 /* WorldBrowser.framework */,
+				7011FCAA211EA48200105268 /* WorldBrowser.framework */,
 				CE674234205A4F020054B551 /* AppDelegate.swift */,
 				CE674236205A4F020054B551 /* ViewController.swift */,
 				CE674238205A4F020054B551 /* Main.storyboard */,
@@ -139,6 +156,7 @@
 				CE67422D205A4F020054B551 /* Sources */,
 				CE67422E205A4F020054B551 /* Frameworks */,
 				CE67422F205A4F020054B551 /* Resources */,
+				7011FCAE211EA5B300105268 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,7 +215,7 @@
 				TargetAttributes = {
 					CE674230205A4F020054B551 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					CE674244205A4F020054B551 = {
 						CreatedOnToolsVersion = 9.2;
@@ -430,16 +448,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = YQD4TX65A5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WorldBrowser_Swift_Demo",
 				);
 				INFOPLIST_FILE = WorldBrowser_Swift_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ts.WorldBrowser-Swift-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technostacks.development;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Technostacks_Development;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,16 +469,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = YQD4TX65A5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WorldBrowser_Swift_Demo",
 				);
 				INFOPLIST_FILE = WorldBrowser_Swift_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ts.WorldBrowser-Swift-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technostacks.development;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Technostacks_Development;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

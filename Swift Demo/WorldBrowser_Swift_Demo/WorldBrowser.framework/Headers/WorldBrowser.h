@@ -9,6 +9,13 @@
 #import <UIKit/UIKit.h>
 //#import <WorldBCV/StartViewController.h>
 #import <WorldBrowser/DetectionViewController.h>
+#import <WorldBrowser/DiscountViewController.h>
+#import <WorldBrowser/CircleAnimationView.h>
+#import <WorldBrowser/APIUtility.h>
+#import <WorldBrowser/ShowActionsVC.h>
+#import <WorldBrowser/ShowMicroLocationVC.h>
+//#import <WorldBrowser/SingleTon.h>
+
 //! Project version number for WorldBCV.
 FOUNDATION_EXPORT double WorldBrowserVersionNumber;
 
